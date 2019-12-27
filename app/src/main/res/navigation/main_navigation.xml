@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation.xml"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.magang.kelilingapp.layout.SplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreen_to_dashboardList"
+            app:destination="@id/dashboardList" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardList"
+        android:name="com.magang.kelilingapp.layout.DashboardPage"
+        android:label="DashboardList" >
+        <action
+            android:id="@+id/action_dashboardList_to_detailPage"
+            app:destination="@id/detailPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPage"
+        android:name="com.magang.kelilingapp.layout.DetailPage"
+        android:label="fragment_detail_page"
+        tools:layout="@layout/fragment_detail_page" >
+        <argument
+            android:name="wisata"
+            app:argType="com.magang.kelilingapp.model.Datum" />
+    </fragment>
+</navigation>

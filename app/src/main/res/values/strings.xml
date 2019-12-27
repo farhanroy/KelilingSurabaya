@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KelilingApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_place">description place</string>
+    <string name="splash1">Banyak sekali destinasi wisata menarik dan kekinian yang wajib kamu kunjungi saat ke Surabaya. Apalagi jika tidak perlu merogoh sepeser rupiah pun untuk membayar tiket masuknya</string>
+    <string name="splash2">Tidak usah bingung mencari apa saja nama bahari cantik dan terbaik yang ada di sekitar Surabaya, karena pada artikel kali ini kami telah merangkum sejumlah bahari di kota tersebut lengkap beserta alamatnya.</string>
+    <string name="splash3">Bukan cuma wilayah perkotaan dan pusat perbelanjaannya saja yang menonjol, Surabaya ternyata menyimpan banyak tempat wisata seru yang cocok dijadikan tujuan berakhir pekan</string>
+    <string name="lanjutBtn">Skip</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="most_visit">Most Visited</string>
+
+</resources>

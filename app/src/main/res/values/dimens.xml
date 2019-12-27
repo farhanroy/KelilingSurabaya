@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingVertical">16dp</dimen>
+    <dimen name="dashboard_image_list">90dp</dimen>
+    <dimen name="text_caption_placeholder_width">150dp</dimen>
+    <dimen name="view_placeholder_height">18dp</dimen>
+    <dimen name="ratingbar_placeholder_width">100dp</dimen>
+    <dimen name="text_detail_placeholder_width">190dp</dimen>
+</resources>
