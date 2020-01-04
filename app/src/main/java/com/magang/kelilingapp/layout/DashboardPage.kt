@@ -159,4 +159,6 @@ class DashboardPage : Fragment() {
     private fun shimmerStop(){
         binding.wisataShimmer.stopShimmer()
     }
+
+
 }

@@ -12,7 +12,8 @@
         tools:layout="@layout/fragment_splash_screen" >
         <action
             android:id="@+id/action_splashScreen_to_dashboardList"
-            app:destination="@id/dashboardList" />
+            app:destination="@id/dashboardList"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/dashboardList"

@@ -12,29 +12,28 @@
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/splashScreenViewPager"
             android:layout_width="match_parent"
-            android:layout_height="550dp"
+            android:layout_height="500dp"
             app:layout_constraintBottom_toTopOf="@+id/imageView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.023" />
-
         <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
             android:id="@+id/dots_indicator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
             app:dotsColor="#6e6e6e"
             app:dotsCornerRadius="8dp"
             app:dotsSize="16dp"
             app:dotsSpacing="4dp"
             app:dotsWidthFactor="2.5"
-            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/splashScreenViewPager"
-            app:layout_constraintVertical_bias="0.625"
+            app:layout_constraintVertical_bias="0.108"
             app:progressMode="true"
             app:selectedDotColor="#ff1" />
 
@@ -53,7 +52,7 @@
             android:id="@+id/nextDashboard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="64dp"
             android:background="@drawable/buttonbg"
             android:elevation="0dp"
             android:text="@string/lanjutBtn"
