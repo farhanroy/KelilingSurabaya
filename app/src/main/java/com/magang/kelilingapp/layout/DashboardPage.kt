@@ -34,7 +34,7 @@ class DashboardPage : Fragment() {
     private lateinit var viewModel: WisataViewModel
     private lateinit var adapter: WisataListAdapter
     private lateinit var mostVisitedAdapter: MostVisitedAdapter
-    lateinit var binding: FragmentDashboardPageBinding
+    private lateinit var binding: FragmentDashboardPageBinding
     private val PERMISSION_REQUEST_CODE: Int = 8
 
     override fun onCreateView(
@@ -96,7 +96,7 @@ class DashboardPage : Fragment() {
         val fineLocation = ContextCompat.checkSelfPermission(requireContext(),ACCESS_FINE_LOCATION)
         val coarseLocation = ContextCompat.checkSelfPermission(requireContext(),ACCESS_COARSE_LOCATION)
 
-        return fineLocation == PackageManager.PERMISSION_GRANTED && coarseLocation == PackageManager.PERMISSION_GRANTED;
+        return fineLocation == PackageManager.PERMISSION_GRANTED && coarseLocation == PackageManager.PERMISSION_GRANTED
     }
 
     private fun requestPermission(){

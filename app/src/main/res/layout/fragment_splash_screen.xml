@@ -19,6 +19,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.023" />
+
         <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
             android:id="@+id/dots_indicator"
             android:layout_width="wrap_content"
@@ -50,10 +51,10 @@
 
         <Button
             android:id="@+id/nextDashboard"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:background="@drawable/buttonbg"
             android:elevation="0dp"
             android:text="@string/lanjutBtn"
             app:layout_constraintEnd_toEndOf="@+id/imageView2"

@@ -9,7 +9,7 @@ import com.magang.kelilingapp.R
 import com.magang.kelilingapp.databinding.MostVisitedListBinding
 import com.magang.kelilingapp.model.Datum
 
-class MostVisitedAdapter(val list:List<Datum> = listOf(), var context: Context?) :
+class MostVisitedAdapter(private val list:List<Datum> = listOf(), var context: Context?) :
     RecyclerView.Adapter<MostVisitedAdapter.MostVisitedVH>() {
     private lateinit var binding: MostVisitedListBinding
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MostVisitedVH {
@@ -23,7 +23,7 @@ class MostVisitedAdapter(val list:List<Datum> = listOf(), var context: Context?)
         holder.bindItem(list[position])
     }
 
-    class MostVisitedVH (val binding: MostVisitedListBinding) : RecyclerView.ViewHolder(binding.root){
+    class MostVisitedVH (private val binding: MostVisitedListBinding) : RecyclerView.ViewHolder(binding.root){
         fun bindItem(datum: Datum){
             binding.data = datum
         }

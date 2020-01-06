@@ -2,14 +2,11 @@ package com.magang.kelilingapp.layout.splash
 
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
-import android.view.View.VISIBLE
 import android.view.ViewGroup
-
+import androidx.fragment.app.Fragment
 import com.magang.kelilingapp.R
-import kotlinx.android.synthetic.main.fragment_splash_screen.*
 
 /**
  * A simple [Fragment] subclass.

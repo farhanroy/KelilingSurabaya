@@ -3,18 +3,14 @@ package com.magang.kelilingapp.adapter
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Filter
-import android.widget.Filterable
 import androidx.core.os.bundleOf
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.magang.kelilingapp.R
 import com.magang.kelilingapp.databinding.WisataListBinding
-import com.magang.kelilingapp.layout.DashboardPage
 import com.magang.kelilingapp.model.Datum
 import com.magang.kelilingapp.util.Params
-import java.util.*
 
 class WisataListAdapter(private var list:List<Datum> = listOf(), var context: Context?) :
     RecyclerView.Adapter<WisataListAdapter.WisataVH>() {
@@ -37,7 +33,7 @@ class WisataListAdapter(private var list:List<Datum> = listOf(), var context: Co
     }
 
 
-    inner class WisataVH(val binding: WisataListBinding) : RecyclerView.ViewHolder(binding.root) {
+    inner class WisataVH(private val binding: WisataListBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bindItem(wisata : Datum){
            binding.datum = wisata
         }

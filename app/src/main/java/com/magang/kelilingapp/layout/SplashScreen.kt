@@ -2,7 +2,6 @@ package com.magang.kelilingapp.layout
 
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE
@@ -10,14 +9,11 @@ import android.view.View.VISIBLE
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
-import androidx.navigation.fragment.NavHostFragment.findNavController
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.magang.kelilingapp.R
 import com.magang.kelilingapp.adapter.SplashViewPagerAdapter
 import com.magang.kelilingapp.databinding.FragmentSplashScreenBinding
-import kotlinx.android.synthetic.main.fragment_splash_screen.*
 
 /**
  * A simple [Fragment] subclass.

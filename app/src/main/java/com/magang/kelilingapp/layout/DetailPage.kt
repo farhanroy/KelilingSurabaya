@@ -10,8 +10,6 @@ import android.widget.LinearLayout
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.fragment.app.Fragment
 import coil.api.load
-import coil.size.Scale
-import coil.transform.CircleCropTransformation
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.MapView
@@ -50,7 +48,7 @@ class DetailPage : Fragment() {
         try {
             MapsInitializer.initialize(activity?.applicationContext)
         }catch (e:Exception) {
-            e.printStackTrace();
+            e.printStackTrace()
         }
 
         mapView.getMapAsync { map ->
