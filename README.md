@@ -1,4 +1,5 @@
-# Keliling-App
+
+# Keliling-App [![Build Status](https://travis-ci.org/roy1441/Keliling-App.svg?branch=master)](https://travis-ci.org/roy1441/Keliling-App)
 Sebuah aplikasi berbasis mobile, yang berfungsi untuk mengeksplore surabay. Diaplikasi ini juga terdapat maps yang dapat mempermudah pengunjung untuk mendatangi spot wisata. Dan juga terdapat desripsi wisata dan foto - foto wisata tersebut
 
 ## ☝🏼  Getting Started
