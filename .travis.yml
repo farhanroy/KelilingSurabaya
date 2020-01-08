@@ -24,7 +24,7 @@ before_install:
 
 script:
   - ./gradlew clean
-  - ./gradlew assemble
+  - ./gradlew assembleRelease
 #  - ./gradlew assemble check
 #  - ./gradlew checkstyle
 #  - ./gradlew build
