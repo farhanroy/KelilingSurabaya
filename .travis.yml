@@ -16,7 +16,9 @@ jdk:
 
 notifications:
   email: false
-  
+deploy:
+  - provider: releases
+    file: app/build/outputs/apk/app-release.apk  
 before_install:
  - chmod +x gradlew
 
