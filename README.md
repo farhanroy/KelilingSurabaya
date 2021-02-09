@@ -13,21 +13,38 @@
   </a>
 </p>
 
+<p align="center">
+    <img alt="Feature Image" src="https://raw.githubusercontent.com/farhanroy/keliling-surabaya/master/image/feature-image.png" />
+</p>
+
 ## Introduction
 <p>Sebuah aplikasi berbasis mobile, yang berfungsi untuk mengeksplore surabay. Diaplikasi ini juga terdapat maps yang dapat mempermudah pengunjung untuk mendatangi spot wisata. Dan juga terdapat desripsi wisata dan foto - foto wisata tersebut</p>
 
 
-## ☝🏼  Getting Started
-clone my github repository
+## ☝🏼  How to contribute
+1. Clone my github repository / **Fork**
 ```
 git clone https://github.com/farhanroy/Keliling-App.git
 ```
+2. Make pull request
+
+## 💻 Requirement
+- Android Studio 4.1 or newest
+- gradle version 6.7.1 
+- Kotlin 1.4
+
+## ✍️ Architecture by
+- Android Jetpack
+- MVVM 
+- Material Design 2
+
 ## Version
 v1.0
 ## 📱 Screenshots
 ![Splash Screen 1](https://i.imgur.com/aV6fJ8Bm.png)  ![Splash Screen 2](https://i.imgur.com/rMWaOl2m.png)  ![Splash Screen 3](https://i.imgur.com/Z9sAqbWm.png) |![HomePage](https://i.imgur.com/A3PkdhSm.png)  ![DetailPageMap](https://i.imgur.com/T2oMHJhm.png)  ![DetailPage](https://i.imgur.com/t3SH897m.png) |
 
-<a href='https://play.google.com/store/apps/details?id=com.magang.kelilingapp&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Temukan di Google Play' src='https://play.google.com/intl/id/badges/static/images/badges/id_badge_web_generic.png'/></a>
+## 😀 😃 😄 😁 😆 😅 Get app at Google Play Store
+[![](https://i.imgur.com/vbFJRFm.png)](https://play.google.com/store/apps/details?id=com.magang.kelilingapp)
 
 ## Author
 
