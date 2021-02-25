@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-    <img alt="Feature Image" src="https://raw.githubusercontent.com/farhanroy/keliling-surabaya/master/image/feature-image.png" />
+    <img alt="Feature Image" src="https://raw.githubusercontent.com/farhanroy/keliling-surabaya/KelilingSurabaya/master/image/feature-image.png" />
 </p>
 
 ## Introduction
